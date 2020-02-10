@@ -1,5 +1,6 @@
 .DS_Store
 node_modules
+tags
 /dist
 
 # local env files
@@ -19,3 +20,6 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# https://github.com/vuejs/vue-cli/issues/3291
+demo.html
