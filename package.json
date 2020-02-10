@@ -1,12 +1,24 @@
 {
   "name": "vue-timestamp",
+  "description": "A lightweight \"x days ago\" component for Vue.",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name vue-timestamp src/main.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "./dist/vue-timestamp.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "repository": "https://github.com/sevensidedmarble/vue-timestamp",
+  "author": "sevensidedmarble",
+  "license": "MIT",
   "dependencies": {
     "vue": "^2.6.11"
   },
