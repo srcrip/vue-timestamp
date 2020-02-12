@@ -73,11 +73,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.time {
-  padding: 1rem;
-  font-weight: normal;
-  font-style: italic;
-}
-</style>
